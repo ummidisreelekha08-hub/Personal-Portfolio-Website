@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Lekha Ummidi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1 class="logo">Sree Lekha</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="resume-btn" class="colorful-btn">Download Resume</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="hero-section container">
+        <div class="hero-text">
+            <h2>Hi, I'm <strong>Sree Lekha Ummidi</strong></h2>
+            <p class="tagline">Electronics and Communication Engineering Student | Aspiring Developer</p>
+            <p>
+                I want to be a part of an organization where I can constantly learn and develop my technical and management skills and make the best use of them for organizational and personal growth. I am looking forward to establishing myself by adopting new technologies as well.
+                <span id="more-bio" style="display:none;">
+                    <br><br>
+                    I am a highly motivated student with strong problem-solving and algorithmic skills, demonstrated by achieving a <strong>5-Star rating in Problem Solving on HackerRank</strong> and solving <strong>150+ coding problems on LeetCode</strong>.                </span>
+                <button id="read-more-btn" class="ghost-btn">Read More</button>
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="">
+        </div>
+    </section>
+    
+    <hr class="container">
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">🛠️ Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+             
+            </div>
+    </section>
+
+    <section id="experience" class="section-padding background-light">
+        <div class="container">
+            <h2 class="section-title">💼 Internships & Education</h2>
+            
+            <h3 class="subsection-title">Internships</h3>
+            <div class="timeline-item">
+                <h3 class="timeline-title">AWS Data Virtual Engineering</h3>
+                <span class="timeline-date">April 2024 - June 2024</span>
+                <ul>
+                    <li>Built and automated ETL pipelines using AWS services like S3, Glue, Lambda, and Redshift.</li>
+                    <li>Processed and transformed large datasets with AWS Glue and PySpark for data lake and warehouse solutions.</li>
+                    <li>Implemented data security, monitoring, and workflow orchestration using IAM, Cloud Watch, and Step Functions.</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <h3 class="timeline-title">Networking Virtual Internship</h3>
+                <span class="timeline-date">Sept 2023 - Nov 2023</span>
+                <ul>
+                    <li>Gained practical experience in configuring and troubleshooting network devices using Cisco Packet Tracer.</li>
+                    <li>Applied core networking concepts such as IP addressing, subnetting, VLANs, and routing protocols (RIP, OSPF).</li>
+                    <li>Completed virtual labs and mini-projects simulating real-world LAN/WAN scenarios and network security setups.</li>
+                </ul>
+            </div>
+
+            <h3 class="subsection-title">Education</h3>
+            <div class="timeline-item">
+                <h3 class="timeline-title">B.Tech in Electronics and Communication Engineering - PRAGATI ENGINEERING COLLEGE</h3>
+                <span class="timeline-date">2022 - 2026 | CGPA: 8.06</span>
+            </div>
+            <div class="timeline-item">
+                <h3 class="timeline-title">Intermediate (M.P.C) - SRI SAI ADITYA JUNIOR COLLEGE</h3>
+                <span class="timeline-date">2020 - 2022 | CGPA: 9.04</span>
+            </div>
+            <div class="timeline-item">
+                <h3 class="timeline-title">S.S.C- SRI CHAITANYA EM HIGH SCHOOL</h3>
+                <span class="timeline-date">2019 - 2020 | CGPA: 10</span>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">💡 Projects</h2>
+
+            <div class="project-grid">
+                <div class="project-card">
+                    <h4>Banking Management System</h4>
+                    <p>It is a project of an online banking system through creating the account, updating the details and stored in SQL server.</p>
+                    <span class="project-tools">Tools: Python, SQL</span>
+                    <a href="https://github.com/Sreelekha54/Banking-Management-using-Python-and-Mysql" class="colorful-btn project-btn"><i class="fab fa-github"></i> View Code</a>
+                </div>
+
+                <div class="project-card">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>A fully responsive, SEO-optimized showcase of my professional brand with a clear introduction and highlighted projects on the homepage.</p>
+                    <span class="project-tools">Tools: HTML, CSS, JavaScript</span>
+                    <a href="https://github.com/Sreelekha54/Sreelekha-Portfolio-Websaite" class="colorful-btn project-btn"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding background-light">
+        <div class="container">
+            <h2 class="section-title">📧 Get In Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:sreelekhaummidi@gmail.com" class="contact-btn email-btn">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/ummidi-sree-lekha-338248259/" target="_blank" class="contact-btn linkedin-btn">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Sreelekha54" target="_blank" class="contact-btn github-btn">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.hackerrank.com/profile/sreelekhaummidi" target="_blank" class="contact-btn hackerrank-btn">
+                    <i class="fab fa-hackerrank"></i> HackerRank
+                </a>
+                <a href="https://leetcode.com/u/sreelekha_54/" target="_blank" class="contact-btn leetcode-btn">
+                    <i class="fab fa-leetcode"></i> LeetCode
+                </a>
+            </div>
+            <p class="contact-info">Phone: +91-9381735433</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sree Lekha Ummidi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
